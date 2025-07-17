@@ -1,28 +1,33 @@
 {
-  "name": "Mr. Robot Games",
-  "subtitle": "Play both Mr. Robot games",
-  "description": "A source containing two Mr. Robot-themed games for AltStore.",
-  "iconURL": "https://upload.wikimedia.org/wikipedia/en/9/94/Mr._Robot_intertitle.png",
-  "tintColor": "#D72D2D",
+  "name": "Mr Robot Games Source",
+  "subtitle": "Two Mr Robot games for AltStore",
+  "description": "This source contains the two Mr Robot games for installation via AltStore.",
+  "iconURL": "https://upload.wikimedia.org/wikipedia/en/3/3a/Mr_Robot_title.png",
+  "website": "https://sorrygatta1.github.io/altstore-source/",
+  "tintColor": "#000000",
+  "featuredApps": [
+    "com.mrrobot.game1",
+    "com.mrrobot.game2"
+  ],
   "apps": [
     {
-      "name": "Mr. Robot Game 1",
-      "bundleIdentifier": "com.sorrygatta1.mrrobot1",
-      "developerName": "SorryGatta",
-      "subtitle": "Hacking adventure begins.",
-      "localizedDescription": "A Mr. Robot-themed game that lets you dive into a world of digital espionage.",
-      "iconURL": "https://upload.wikimedia.org/wikipedia/en/9/94/Mr._Robot_intertitle.png",
-      "tintColor": "#FF0000",
+      "name": "Mr Robot Game 1",
+      "bundleIdentifier": "com.mrrobot.game1",
+      "developerName": "Mr Robot Dev",
+      "localizedDescription": "The first Mr Robot hacking game.",
+      "iconURL": "https://upload.wikimedia.org/wikipedia/en/3/3a/Mr_Robot_title.png",
+      "tintColor": "#000000",
       "category": "games",
-      "screenshots": [],
       "versions": [
         {
           "version": "1.0",
           "buildVersion": "1",
           "date": "2025-07-17",
-          "downloadURL": "https://sorrygatta1.github.io/altstore-source/mrrobot1.ipa",
-          "size": 26026188,
-          "minOSVersion": "12.0"
+          "localizedDescription": "Initial release of Mr Robot Game 1.",
+          "downloadURL": "https://sorrygatta1.github.io/altstore-source/mrrobotgame1.ipa",
+          "size": 25407000,
+          "minOSVersion": "12.0",
+          "maxOSVersion": "16.3"
         }
       ],
       "appPermissions": {
@@ -31,23 +36,23 @@
       }
     },
     {
-      "name": "Mr. Robot Game 2",
-      "bundleIdentifier": "com.sorrygatta1.mrrobot2",
-      "developerName": "SorryGatta",
-      "subtitle": "The hack continues.",
-      "localizedDescription": "Sequel to the Mr. Robot hacking game with new challenges and twists.",
-      "iconURL": "https://upload.wikimedia.org/wikipedia/en/9/94/Mr._Robot_intertitle.png",
-      "tintColor": "#FF0000",
+      "name": "Mr Robot Game 2",
+      "bundleIdentifier": "com.mrrobot.game2",
+      "developerName": "Mr Robot Dev",
+      "localizedDescription": "The sequel to the Mr Robot hacking game.",
+      "iconURL": "https://upload.wikimedia.org/wikipedia/en/3/3a/Mr_Robot_title.png",
+      "tintColor": "#000000",
       "category": "games",
-      "screenshots": [],
       "versions": [
         {
           "version": "1.0",
           "buildVersion": "1",
           "date": "2025-07-17",
-          "downloadURL": "https://sorrygatta1.github.io/altstore-source/mrrobot2.ipa",
-          "size": 26026188,
-          "minOSVersion": "12.0"
+          "localizedDescription": "Initial release of Mr Robot Game 2.",
+          "downloadURL": "https://sorrygatta1.github.io/altstore-source/mrrobotgame2.ipa",
+          "size": 25407000,
+          "minOSVersion": "12.0",
+          "maxOSVersion": "16.3"
         }
       ],
       "appPermissions": {
